@@ -388,4 +388,5 @@ h2.nyhedsbrev-titel {
 h2.nyhedsbrev-titel span {
   display: block;
   color: var(--bagground-color);
+  font-weight: bold;
 }
