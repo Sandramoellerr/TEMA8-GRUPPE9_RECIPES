@@ -142,6 +142,8 @@ button {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .btn-opdag:hover {
