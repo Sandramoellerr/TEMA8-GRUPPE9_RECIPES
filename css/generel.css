@@ -5,17 +5,18 @@
 /* MOBIL */
 :root {
   /* FARVER */
-  --header-color: #fffaeb;
-  --bagground-color: #fefaec;
-  --footer-color: #5c6a5a;
+  --header-color: #f7f5ef;
+  --bagground-color: #f7f5ef;
+  --footer-color: #f7f5ef;
 
-  --h1-color: #811921;
-  --h2-color-1: #c83d1e;
-  --h2-color-2: #5c6a5a;
-  --h3-color: #811921;
-  --brødtekst-color: #811921;
-  --banner-lysfarve: #e2ddc9;
-  --banner-mørkfarve: #bbb190;
+  --h1-color: #000000;
+  --h2-color-1: #1f3fcc;
+  --h2-color-2: #000000;
+  --h3-color: #67625b;
+  --brødtekst-color: #000000;
+  --banner-lysfarve: #e3d3b8;
+  --lyseblå-streg: #d1daff;
+  --gul-cirkel: #eed997;
 
   /* SKRIFTSTØRRELSER */
   --h1-size: 2rem;
@@ -38,12 +39,12 @@
    MAIN
 ========================================== */
 main {
-  background-color: var(--baggrud-color);
   color: var(--brødtekst-color);
   padding-inline: 2rem;
 }
 
 body {
+  background-color: var(--bagground-color);
   margin: 0;
   padding: 0;
 }
@@ -94,7 +95,7 @@ p {
 
 /*generelle knapper*/
 button {
-  background-color: var(--header-color);
+  background-color: var(--banner-lysfarve);
   color: var(--h1-color);
   padding: 3px 20px;
   border-radius: 20px;
@@ -107,7 +108,8 @@ button:hover {
 }
 
 button:nth-of-type(2) {
-  background-color: #ffffff;
+  background-color: var(--h2-color-1);
+  color: #ffffff;
 }
 
 button:nth-of-type(2):hover {
@@ -117,7 +119,7 @@ button:nth-of-type(2):hover {
 
 /*footer knapper*/
 .footer-button1 {
-  background-color: var(--footer-color);
+  background-color: var(--lysbjælke-color);
   color: var(--header-color);
   padding: 1px 20px;
   border-radius: 20px;
@@ -137,7 +139,7 @@ button:nth-of-type(2):hover {
 }
 
 .footer-button2:hover {
-  background-color: var(--brødtekst-color);
+  background-color: #0f2585;
   color: var(--header-color);
 }
 /* ==========================================
@@ -381,7 +383,7 @@ footer img {
 }
 /* Første linje: grøn */
 h2.nyhedsbrev-titel {
-  color: #374735;
+  color: var(--h3-color);
 }
 
 /* Anden linje: hvid og på en ny linje */
