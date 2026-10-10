@@ -13,7 +13,7 @@
         rel="stylesheet" />
 
     <link rel="stylesheet" href="css/generel.css">
-    <link rel="stylesheet" href="css/generel.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -33,8 +33,8 @@
                         </ul>
                     </details>
                 </li>
-                <li><a href="/listview">Opskrifter</a></li>
-                <li><a href="/omos">Om os</a></li>
+                <li><a href="listview.html">Opskrifter</a></li>
+                <li><a href="omos.html">Om os</a></li>
             </ul>
 
             <a href="/">
@@ -43,6 +43,7 @@
 
             <!-- Søgefelt -->
             <form class="search" role="search">
+                <img src="img/iconer/soeg.png" alt="" class="search-ikon" />
                 <input type="search" placeholder="Søg efter opskrift" aria-label="Søg efter opskrift" />
             </form>
 
@@ -71,24 +72,23 @@
     </main>
 
     <footer>
-        <img src="img/logo/blå_logo.png" alt="blåt yum Logo" />
+        <div class="footer-venstre">
+            <img src="img/logo/blå_logo.png" alt="Yum logo" class="footer-logo">
+            <p class="footer-find">Find os her</p>
+            <div class="footer-ikoner">
+                <a href="#"><img src="img/iconer/tiktok.png" alt="TikTok"></a>
+                <a href="#"><img src="img/iconer/instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
 
-        <h2 class="nyhedsbrev-titel">
-            Vil du modtage vores nyeste opskrifter
-            <span>før alle andre?</span>
-        </h2>
-        <p>Tilmeld dig vores nyhedsbrev</p>
-        <div>
-            <button class="footer-button1">
-                <p>Navn@gmail.com</p>
-            </button>
-            <button class="footer-button2">
-                <p>Tilmeld dig nu</p>
-            </button>
+        <div class="footer-hoejre">
+            <h2>Vil du modtage vores nyeste opskrifter før alle andre?</h2>
+            <input type="email" class="footer-button1" placeholder="Ditnavn@gmail.com">
+            <button class="footer-button2">Tilmeld dig her</button>
         </div>
     </footer>
 
 </body>
-<script src="burger.js"></script>
+<script src="javascript/burger.js"></script>
 
 </html>
