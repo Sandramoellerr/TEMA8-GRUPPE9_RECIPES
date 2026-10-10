@@ -1,0 +1,221 @@
+main {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.intro-section {
+  text-align: center;
+}
+
+#recipeContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+
+  margin-top: 50px;
+}
+
+.recipe-card {
+  text-align: center;
+}
+
+.recipe-card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.recipe-card h3 {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.recipe-card p {
+  font-size: 12px;
+}
+body {
+  margin: 0;
+  background-color: #f5f3ee;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* FILTER */
+
+.filter-section {
+  padding: 60px 40px;
+}
+
+.filter-section h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.filter-group h3 {
+  width: 120px;
+  font-size: 1rem;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.filter-buttons button {
+  padding: 10px 20px;
+  border: 1px solid #555;
+  background: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.filter-buttons .active {
+  background: #3047d8;
+  color: white;
+  border: none;
+}
+
+/* BLÅ STREG */
+
+.separator {
+  height: 18px;
+  background-color: #3047d8;
+}
+
+/* OVERSKRIFT */
+
+.intro-section {
+  text-align: center;
+  padding: 80px 0 40px;
+}
+
+.intro-section h2 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+.intro-section a {
+  color: #3047d8;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* OPSKRIFTER */
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px 40px;
+  padding: 40px;
+}
+
+.recipe-card {
+  text-align: center;
+  position: relative;
+}
+
+.recipe-card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.recipe-card h3 {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.recipe-card p {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.badge {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+
+  width: 90px;
+  height: 90px;
+
+  background: #dfcd8f;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 0.9rem;
+}
+
+/* SE MERE */
+
+.button-wrapper {
+  text-align: center;
+  margin: 40px 0 80px;
+}
+
+.more-btn {
+  padding: 12px 32px;
+  border: 1px solid #3047d8;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+}
+
+/* NEDERSTE SEKTION */
+
+.kitchen-section {
+  background: #ddd3ba;
+  padding: 60px 30px;
+}
+
+.kitchen-section h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.kitchen-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.kitchen-item {
+  text-align: center;
+}
+
+.kitchen-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.kitchen-item button {
+  margin-top: 15px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background: white;
+  border: 1px solid #3047d8;
+}
