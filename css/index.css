@@ -25,6 +25,7 @@ h1 {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  background-color: orange;
 }
 @media (min-width: 800px) {
   /* Tekst og billede ved siden af hinanden */
@@ -54,6 +55,7 @@ h1 {
 
 /* Billedet */
 .box2-foto {
+  margin-top: 3rem;
   display: block;
   width: 100%;
   border-radius: 10px;
@@ -63,6 +65,8 @@ h1 {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
 }
 
 /* Den gule cirkel */
@@ -87,6 +91,8 @@ h1 {
 .box2-undertitel {
   font-family: "Arbutus Slab", serif;
   color: #7a6a4f;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 .box2-ord {
   position: absolute;
@@ -143,6 +149,10 @@ h1 {
   background-color: var(--knap-beige);
   padding: 30px 20px;
   text-align: center;
+
+  margin-left: -2rem;
+  margin-right: -2rem;
+  margin-bottom: 2rem;
 }
 
 .vibe h2 {
