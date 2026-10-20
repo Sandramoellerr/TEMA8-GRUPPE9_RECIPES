@@ -8,9 +8,9 @@ når navigationen har klassen active.*/
 const burger = document.querySelector(".burger");
 const nav = document.querySelector("nav");
 
-function visMenu() {
+function showMenu() {
   burger.classList.toggle("active"); /*→ stregerne bliver til et kryds.*/
   nav.classList.toggle("active");
 }
 
-burger.addEventListener("click", visMenu);
+burger.addEventListener("click", showMenu);
